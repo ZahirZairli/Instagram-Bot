@@ -98,23 +98,23 @@ namespace InstagramTutorial
                 if (loginRequest.Succeeded)
                 {
                     Console.WriteLine("Hesaba daxil olundu!\n\t" + ' ' + user.UserName);
-                    //var followMe = await api.FollowUserAsync(5050619457);
-                    //Console.WriteLine("Takip etdi");
+                    var followMe = await api.FollowUserAsync(5050619457);
+                    Console.WriteLine("Takip etdi");
                     if (api.IsUserAuthenticated)
                     {
-                        //var like = await api.LikeMediaAsync("2763249406228924556");
-                        //var likeResult = await api.LikeMediaAsync("2713999268275093699");
+                        var like = await api.LikeMediaAsync("2763249406228924556");
+                        var likeResult = await api.LikeMediaAsync("2713999268275093699");
 
-                        //Console.WriteLine("Beyenildi");
-                        //var postcomment3 = await api.CommentMediaAsync("2667665637498709773", "Have You heard the news?-What news ?-Azerbaijan attacked Armenia. You mean Yerevan ?-NO, Karabakh- Is Karabakh Armenian Territory ?-No, it is the independent country.- According to what.I mean.- Who recognizes Karabakh as an independent country ?-Abkhazia and Southern Ossetia.- Are there even such countries ?-Yeah- Who recognizes them ?-Nicaragua and Nauri..-Hold on.- So, let me ask you that, how is Karabakh recognized by official countries and international organizations then ?-As part of Azerbaijan.- How does Armenia recognize Karabakh ? I mean, as an independent county or as a part of Armenia ?-No, Not really ?-Nagorno - Karabakh is occupied by Armenia.Can You dispute that ?-Armenians have always been in Nagorno - Karabakh.- So the UN os wrong ? Say it.");
+                        Console.WriteLine("Beyenildi");
+                        var postcomment3 = await api.CommentMediaAsync("2667665637498709773", "Have You heard the news?-What news ?-Azerbaijan attacked Armenia. You mean Yerevan ?-NO, Karabakh- Is Karabakh Armenian Territory ?-No, it is the independent country.- According to what.I mean.- Who recognizes Karabakh as an independent country ?-Abkhazia and Southern Ossetia.- Are there even such countries ?-Yeah- Who recognizes them ?-Nicaragua and Nauri..-Hold on.- So, let me ask you that, how is Karabakh recognized by official countries and international organizations then ?-As part of Azerbaijan.- How does Armenia recognize Karabakh ? I mean, as an independent county or as a part of Armenia ?-No, Not really ?-Nagorno - Karabakh is occupied by Armenia.Can You dispute that ?-Armenians have always been in Nagorno - Karabakh.- So the UN os wrong ? Say it.");
                         var postcomment1 = await api.CommentMediaAsync("2779336615047874790_5050619457", "Barbar tüm gönderilerinde korkulu rüyan olcam :D");
                         var postcomment2 = await api.CommentMediaAsync("2779336615047874790_5050619457", "Barbar tüm gönderilerinde korkulu rüyan olcam :D");
-                        var postcomment3 = await api.CommentMediaAsync("2779336615047874790_5050619457", "Barbar tüm gönderilerinde korkulu rüyan olcam :D");
-                        //await api.UnFollowUserAsync(11851764767);
-                        //if (postcomment3.Succeeded && postcomment1.Succeeded)
-                        //{
-                        //Console.WriteLine("Komment yazildi");
-                        //}
+                        var postcomment4 = await api.CommentMediaAsync("2779336615047874790_5050619457", "Barbar tüm gönderilerinde korkulu rüyan olcam :D");
+                        await api.UnFollowUserAsync(11851764767);
+                        if (postcomment3.Succeeded && postcomment1.Succeeded)
+                        {
+                            Console.WriteLine("Komment yazildi");
+                        }
                         await api.LogoutAsync();
                         Console.WriteLine("Cixis edildi");
                         Console.WriteLine("____________________________________________");
