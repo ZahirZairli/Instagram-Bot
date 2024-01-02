@@ -1,0 +1,12 @@
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\obj\Debug\InstagramTutorial.csproj.CoreCompileInputs.cache
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\bin\Debug\InstagramTutorial.exe.config
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\bin\Debug\InstagramTutorial.exe
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\bin\Debug\InstagramTutorial.pdb
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\bin\Debug\InstaSharper.dll
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\obj\Debug\InstagramTutorial.csproj.CopyComplete
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\obj\Debug\InstagramTutorial.exe
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\obj\Debug\InstagramTutorial.pdb
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\obj\Debug\InstagramTutorial.csproj.AssemblyReference.cache
+C:\Users\Casper\source\repos\InstagramTutorial\InstagramTutorial\obj\Debug\InstagramTutorial.csproj.SuggestedBindingRedirects.cache
